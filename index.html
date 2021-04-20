@@ -5,143 +5,190 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Actividad</title>
-    <link rel="stylesheet" href="/estilos.css"
+    <link rel="stylesheet" href="/estilos.css" />
   </head>
-  <body class="body">
-      <!--Seccion 1-->
-      <nav>
-        <ul class="nav">
-          <li class="nav__nombre">
-            <a href="#">Workshop 1</a>
-          </li>
-          <li class="nav__item">
-            <a href="#">Inicio</a>
-          </li>
-          <li class="nav__item">
-            <a href="#">Servicio</a>
-          </li>
-          <li class="nav__item">
-            <a href="#">Noticias</a>
-          </li>
-          <li class="nav__item">
-            <a href="#">Equipo</a>
-          </li>
-        </ul>
-      </nav>
-    <!--Seccion imagen-->
-    <div >
-      <img class="section__img" src="/images/Imagen 1.jpg" />
-    </div>
-    
-    <div class="section_servicio_background">
-    <div class="section__servicio">
-      <div>
-        <div >
-          <img class="section__logo" src="/images/ambulancia.png"/>
+  <body>
+    <header class="header">
+        <div class="header__title">
+          <h1>Workshop 1</h1>
         </div>
-          <h4 class="content">Servicio 1</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores et quis modi, autem voluptas!</p>
-      </div>
-      <div>
-        <div>
-          <img  class="section__logo" src="/images/ambulancia.png"/>
+        <div class="main-menu">
+          <ul class="main-menu__list">
+            <li class="main-menu-element">
+              <a class="a-menu" href="#">Inicio</a>
+            </li>
+            <li class="main-menu-element">
+              <li class="main-menu-element">
+                <a class="a-menu" href="#">Servicio</a>
+              </li>
+            </li>
+            <li class="main-menu-element">
+              <li class="main-menu-element">
+                <a class="a-menu" href="https://comunicaciones.utp.edu.co/sitio/39/noticias">Noticias</a>
+              </li>
+            </li>
+            <li class="main-menu-element">
+              <li class="main-menu-element">
+                <a class="a-menu" href="https://comunicaciones.utp.edu.co/quienes-somos/44640/equipo">Equipo</a>
+              </li>
+            </li>
+          </ul>
         </div>
-        <h4 class="content">Servicio 1</h1>
-          <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores et quis modi, autem voluptas!</p>
-    </div>
-    <div>
-      <div>
-        <img  class="section__logo" src="/images/ambulancia.png"/>
+        <div class="header-image"></div>
+    </header>
+    <!--Seccion servicio-->
+    <section class="servicio">
+      <div class="servicio-detalles">
+        <figure class="servicio-figura">
+          <img class="servicio-figura__imagen" src="/images/google.PNG" alt="">
+        </figure>
+        <article class="servicio-text">
+          <h2 class="servicio-text__titulo">Contribuye con google</h2>
+        <p class="servicio-text__parrafo">Google Crowdsource, Crowdsource o Colaboración de la comunidad es una plataforma del tipo crowdsourcing desarrollada por Google y destinada a mejorar una gran cantidad de servicios de Google a través de la capacitación de diferentes algoritmos por medio de usuarios voluntarios.</p>
+        <a class=" servicio-text__link" href="https://es.wikipedia.org/wiki/Crowdsource_(app)">Ver información completa</a>
+        </article>
       </div>
-        <h4 class="content">Servicio 1</h1>
-          <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores et quis modi, autem voluptas!</p>
-    </div>
-    </div>
-    </div>
 
-    <!--Seccion noticia-->
-    <div class="section_noticia_background">
-      <div class="section__noticia">
-        <div>
-          <div>
-            <img  class="section__logo" src="/images/ambulancia.png"/>
-          </div>
-            <h4 class="content">Noticia 1</h1>
-              <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores et quis modi, autem voluptas!</p>
-        </div>
-        <div>
-          <div>
-            <img  class="section__logo" src="/images/ambulancia.png"/>
-          </div>
-          <h4 class="content">Noticia 1</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores et quis modi, autem voluptas!</p>
+      <div class="servicio-detalles">
+        <figure class="servicio-figura">
+          <img class="servicio-figura__imagen" src="/images/youtube.PNG" alt="">
+        </figure>
+        <article class="servicio-text">
+          <h2 class="servicio-text__titulo">Videos y mucho mas</h2>
+        <p class="servicio-text__parrafo">YouTube es un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming.</p><br>
+        <a class=" servicio-text__link" href="https://www.youtube.com">Ver información completa</a>
+        </article>
       </div>
-      <div>
-        <div>
-          <img  class="section__logo" src="/images/ambulancia.png"/>
-        </div>
-          <h4 class="content">Noticia 1</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores et quis modi, autem voluptas!</p>
+
+      <div class="servicio-detalles">
+        <figure class="servicio-figura">
+          <img class="servicio-figura__imagen" src="/images/google-calendar.PNG" alt="">
+        </figure>
+        <article class="servicio-text">
+          <h2 class="servicio-text__titulo">Organiza tu dia</h2>
+        <p class="servicio-text__parrafo">Google Calendar nos permite agendar todos nuestros eventos del día a día, tanto en el ámbito laboral como en el personal. Además, al estar conectado con aplicaciones como Gmail, nuestro smartphone y otros dispositivos, nos permiten consultarlo mediante diferentes vías.</p>
+        <a class=" servicio-text__link" href="https://calendar.google.com/calendar/u/0/r?hl=es&tab=vc">Ver información completa</a>
+        </article>
       </div>
-      <div>
-        <div>
-          <img  class="section__logo" src="/images/ambulancia.png"/>
-        </div>
-        <h4 class="content">Noticia 1</h1>
-          <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores et quis modi, autem voluptas!</p>
-    </div>
+<!--Seccion noticia-->
+    </section>
+    <section class="noticia">
+      <div class="noticia-detalles">
+        <figure class="noticia-figura">
+          <img class="noticia-figura__imagen" src="/images/silicon.PNG" alt="">
+        </figure>
+        <article class="noticia-text">
+          <h2 class="noticia-text__titulo">¿De dónde nació el nombre Silicon Valley?</h2>
+        <p class="noticia-text__parrafo">Silicon Valley es el nombre con que se conoce popularmente la gigantesca zona sur de la Bahía de San Francisco en California, Estados Unidos.</p>
+        <hr>
+        <a class=" noticia-text__link" href="https://www.eltiempo.com/tecnosfera/novedades-tecnologia/de-donde-nacio-el-nombre-silicon-valley-581513">Ver información completa</a>
+        </article>
       </div>
+
+      <div class="noticia-detalles">
+        <figure class="noticia-figura">
+          <img class="noticia-figura__imagen" src="/images/chip.PNG" alt="">
+        </figure>
+        <article class="noticia-text">
+          <h2 class="noticia-text__titulo">Los microchips, la novedad: ¿se pondría uno?</h2>
+        <p class="noticia-text__parrafo">Hoy el mundo, y los seres humanos, evalúan formas de mejorar la calidad de vida, de hacer el ritmo mucho más cómodo y la tecnología hace parte importante de ese cambio. </p>
+        <hr>
+        <a class=" noticia-text__link" href="https://www.eltiempo.com/tecnosfera/que-microchips-se-usan-en-humanos-actualmente-y-para-que-sirven-581158">Ver información completa</a>
+        </article>
       </div>
-    <!--Seccion Daniel Duque-->
-    <div class="section_nombre_background">
-      <div class="section__nombre">
-        <div>
-          <div>
-            <img class="section__logo" src="/images/ambulancia.png"/>
-          </div>
-            <h4 class="content">Daniel Duque</h1>
-              <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium!</p>
-        </div>
-        <div>
-          <div>
-            <img class="section__logo" src="/images/ambulancia.png"/>
-          </div>
-          <h4 class="content">Daniel Duque</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium!</p>
+
+      <div class="noticia-detalles">
+        <figure class="noticia-figura">
+          <img class="noticia-figura__imagen" src="/images/bombillo.PNG" alt="">
+        </figure>
+        <article class="noticia-text">
+          <h2 class="noticia-text__titulo">Las empresas más innovadoras del mundo para este 2021</h2>
+        <p class="noticia-text__parrafo">Un estudio de Boston Consulting Group (BCG), consultora dedicada a la asesoría en estrategias de negocios, reveló cuáles son las empresas más innovadoras a nivel mundial.</p>
+        <hr>
+        <a class=" noticia-text__link" href="https://www.eltiempo.com/economia/empresas/apple-y-empresas-mas-innovadoras-para-este-2021-sectores-582044">Ver información completa</a>
+        </article>
       </div>
-      <div>
-        <div>
-          <img class="section__logo" src="/images/ambulancia.png"/>
-        </div>
-          <h4 class="content">Daniel Duque</h1>
-            <h6 clap="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium!</p>
+
+      <div class="noticia-detalles">
+        <figure class="noticia-figura">
+          <img class="noticia-figura__imagen" src="/images/radar.PNG" alt="">
+        </figure>
+        <article class="noticia-text">
+          <h2 class="noticia-text__titulo">Colombia diseñó radar de alta tecnología que detecta drones y personas</h2>
+        <p class="noticia-text__parrafo">Un radar de tecnología de punta, con alta resolución y traslado y recepción de datos, fue diseñado y fabricado por la Corporación de Alta Tecnología para la Defensa, Codaltec.</p>
+        <hr>
+        <a class=" noticia-text__link" href="https://www.eltiempo.com/justicia/servicios/tecnologia-codaltec-disena-radar-de-alta-tecnologia-577964">Ver información completa</a>
+        </article>
       </div>
-      <div>
-        <div>
-          <img class="section__logo" src="/images/ambulancia.png"/>
-        </div>
-        <h4 class="content">Daniel Duque</h1>
-          <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium!</p>
-    </div>
-    <div>
-      <div>
-        <img class="section__logo" src="/images/ambulancia.png"/>
+    </section>
+    <!--Seccion nombre-->
+    <section class="nombre">
+      <div class="nombre-detalles">
+        <figure class="nombre-figura">
+          <img class="nombre-figura__imagen" src="/images/larry.PNG" alt="">
+        </figure>
+        <article class="nombre-text">
+          <h2 class="nombre-text__titulo">Larry Page fundador de google</h2>
+        <p class="nombre-text__parrafo">Larry Edward Page empresario estadounidense, creador junto con Serguéi Brin de Google.</p>
+        <a class=" nombre-text__link" href="https://es.wikipedia.org/wiki/Larry_Page">Ver información completa</a>
+        </article>
       </div>
-      <h4 class="content">Daniel Duque</h1>
-        <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium!</p>
-  </div>
+
+      <div class="nombre-detalles">
+        <figure class="nombre-figura">
+          <img class="nombre-figura__imagen" src="/images/brin.PNG" alt="">
+        </figure>
+        <article class="nombre-text">
+          <h2 class="nombre-text__titulo">Serguéi Brin colaborador de google </h2>
+        <p class="nombre-text__parrafo">Empresario e informático teórico estadounidense de origen ruso que, junto a Larry Page, fundó Google.</p>
+        <a class=" nombre-text__link" href="https://en.wikipedia.org/wiki/Sergey_Brin">Ver información completa</a>
+        </article>
       </div>
+
+      <div class="nombre-detalles">
+        <figure class="nombre-figura">
+          <img class="nombre-figura__imagen" src="/images/mark.PNG" alt="">
+        </figure>
+        <article class="nombre-text">
+          <h2 class="nombre-text__titulo">Mark Zuckerberg</h2>
+        <p class="nombre-text__parrafo">Programador y empresario estadounidense, uno de los creadores de Facebook junto a otros empresarios que revolucionaron.</p><br><br>
+        <a class=" nombre-text__link" href="https://es.wikipedia.org/wiki/Mark_Zuckerberg">Ver información completa</a>
+        </article>
       </div>
-    <!--Seccion Footer-->
-    <div>
-        <footer class="footer">
-            <ul class="lista">
-                <li class="lista-item"><a href="#">About</a></li>
-                <li class="lista-item"><a href="#">Terms</a></li>
-                <li class="lista-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <div class="copyright">Company Name © 2020</div>
-        </footer>
-    </div>
+
+      <div class="nombre-detalles">
+        <figure class="nombre-figura">
+          <img class="nombre-figura__imagen" src="/images/bill.PNG" alt="">
+        </figure>
+        <article class="nombre-text">
+          <h2 class="nombre-text__titulo">Bill Gates</h2>
+        <p class="nombre-text__parrafo">Empresario, informático estadounidense, conocido por haber creado y fundado junto con Paul Allen, la empresa Microsoft.</p><br><br>
+        <a class=" nombre-text__link" href="https://es.wikipedia.org/wiki/Crowdsource_(app)">Ver información completa</a>
+        </article>
+      </div>
+
+      <div class="nombre-detalles">
+        <figure class="nombre-figura">
+          <img class="nombre-figura__imagen" src="/images/Paul.PNG" alt="">
+        </figure>
+        <article class="nombre-text">
+          <h2 class="nombre-text__titulo">Paul Ellen</h2>
+        <p class="nombre-text__parrafo">Empresario, magnate de negocios, inversor y filántropo estadounidense. Junto con Bill Gates fue fundador de la empresa Microsoft.</p><br>
+        <a class=" nombre-text__link" href="https://es.wikipedia.org/wiki/Crowdsource_(app)">Ver información completa</a>
+        </article>
+      </div>
+    </section>
+    
+    <footer class="footer">
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Home</a></li>
+              <li class="list-inline-item"><a href="#">Services</a></li>
+              <li class="list-inline-item"><a href="#">About</a></li>
+              <li class="list-inline-item"><a href="#">Terms</a></li>
+              <li class="list-inline-item"><a href="https://www.utp.edu.co/cms-utp/data/bin/UTP/web/uploads/media/calidad/archivos/1313-MGD-01_V4_Manual_General_de_Directrices_del_SGSI.pdf">Security Politics</a></li>
+              <p class="copyright">Company Name © 2018</p>
+          </ul>
+  </footer>
+
   </body>
 </html>
